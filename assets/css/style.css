@@ -833,6 +833,9 @@ fieldset {
 #and {
     padding-left:20px;
 }
+.borderL {
+    border-left:3px solid #ddd;
+}
 .coachingPage .sectionInfo {
     width:100%;
     text-align:left;
