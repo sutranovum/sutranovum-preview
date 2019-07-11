@@ -100,8 +100,8 @@ fieldset {
 .section-title h2 {
     margin-top: 0;
     font-weight: 900;
-    text-transform: capitalize;
-    font-size: 40px;
+/*    text-transform: capitalize;
+*/    font-size: 40px;
     color: #000;
 }
 
@@ -246,19 +246,20 @@ fieldset {
     margin: 0 auto;
     border: 2px solid #fff;
 }
-
+.header-text h3,
+.header-text h4 {
+    color:#fff;
+}
 .header-text h2 {
     color: #fff;
     font-size: 120px;
     font-weight: 900;
-    text-transform: capitalize;
 }
 
 .header-text p {
     color: #fafafa;
     font-size: 30px;
     font-weight: 400;
-    text-transform: capitalize;
 }
 
 .header-top-area {
