@@ -47,7 +47,6 @@ h6 {
 }
 
 a {
-    text-decoration: none;
     -webkit-transition: all 0.4s;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
@@ -61,6 +60,7 @@ img {
 
 a:hover {
     text-decoration: none;
+    color:lightblue;
 }
 
 a:focus {
@@ -507,7 +507,7 @@ fieldset {
     text-align: left;
 }
 .bottomline a {
-    border-bottom:1px solid blue;
+    border-bottom:2px solid lightblue;
 }
 #moving-mount  {
     padding-top:130px;
