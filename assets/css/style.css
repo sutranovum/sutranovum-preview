@@ -60,7 +60,6 @@ img {
 
 a:hover {
     text-decoration: none;
-    color:lightblue;
 }
 
 a:focus {
@@ -188,7 +187,7 @@ fieldset {
 .welcome-image-area-2 {
     position: relative;
     height: 100%;
-    background: url(../images/lightbulb.jpg);
+    background: url(../images/bg/torch.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -202,14 +201,14 @@ fieldset {
 .welcome-image-area-4 {
     position: relative;
     height: 100%;
-    background: url(../images/service1.jpg);
+    background: url(../images/bg/service1.jpg);
     background-size: cover;
     z-index: 1;
 }
 .welcome-image-area-5 {
     position: relative;
     height: 100%;
-    background: url(../images/monkey1.jpg);
+    background: url(../images/bg/monkey1.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -513,6 +512,17 @@ fieldset {
     padding-top:130px;
     background:#fff;
 }
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a:active {
+    background:orange !important;
+}
+.bottomMenu {
+    width:100%;
+    background:rgba(236, 234, 234, 0.1);
+    border-bottom:1px solid #ddd;
+    font-size:15px;
+}
+
 
 /*-------our focus----sp---*/
 
@@ -580,12 +590,7 @@ fieldset {
     border-bottom:none;
     font-weight:bold;
 }
-.bottomMenu {
-    width:100%;
-    background:rgba(236, 234, 234, 0.1);
-    border-bottom:1px solid #ca232b;
-    font-size:15px;
-}
+
 #heart {
     padding-top:120px;
 }
