@@ -117,7 +117,7 @@ Version      : 1.0
         background: #000;
     }
     .navbar-toggle {
-        margin-top: -26px;
+        margin-top: -6px;
         margin-right: 0;
     }
     .navbar {
@@ -168,6 +168,7 @@ Version      : 1.0
     .welcome-video-area h2 {
         font-size: 35px;
     }
+
     .header-text h1 {
         font-size: 30px;
     }
@@ -227,8 +228,8 @@ Version      : 1.0
         margin-bottom: 105px;
     }
     .header-text {
+        margin-top:-80px;
         padding: 0px 20px;
-        margin-top: 50px;
     }
     .area-shadow {
         padding: 30px;
