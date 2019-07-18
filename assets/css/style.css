@@ -178,11 +178,13 @@ fieldset {
 }
 
 .welcome-image-area-1 {
-    position: relative;
+    position: sticky;
+    margin-top:10px;
+    width:100%;
     height: 100%;
-    background: url(../images/bg/rocks2.jpg);
+    background: url(../images/bg/rocks2.jpg)no-repeat;
     background-size: cover;
-    z-index: 1;
+    z-index: -1;
 }
 .welcome-image-area-2 {
     position: relative;
@@ -212,9 +214,12 @@ fieldset {
     background-size: cover;
     z-index: 1;
 }
-.welcome-image-area:after {
+.welcome-image-area-1:after,
+.welcome-image-area-2:after,
+.welcome-image-area-3:after,
+.welcome-image-area-4:after {
     position: absolute;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .3);
     left: 0;
     top: 0;
     width: 100%;
@@ -265,6 +270,7 @@ fieldset {
     position: fixed;
     left: 0;
     top: 0;
+    text-align: center;
     width: 100%;
     height:115px;
     z-index: 999;
@@ -272,9 +278,6 @@ fieldset {
     transition: all 0.4s ease-out;
     background: #fff;
     box-shadow: 0 3px 3px rgba(0, 0, 0, .29);
-}
-#home {
-
 }
 
 .logo {
@@ -303,11 +306,16 @@ fieldset {
 }
 .mainmenu .navbar-right  {
     margin-top:-3px;
+    width:100%;
+}
+.navbar-right li {
+    float:none;
+    display:inline-block;
 }
 .mainmenu .navbar-right li .mainMenu {
     color: #000;
     font-size: 10px;
-    padding: 10px 15px;
+    padding: 10px 12px;
     -webkit-transition: .3s;
     transition: .3s;
     font-weight: 500;
@@ -343,9 +351,6 @@ fieldset {
     transition: all 0.3s ease-out;
 }
 
-.navbar-right {
-    margin: 0;
-}
 
 .menu-bg {
     -webkit-transition: all 0.3s ease-out;
@@ -410,6 +415,88 @@ fieldset {
     from {transform:rotate(0deg);}
     to{transform:rotate(55deg);}
 }
+/*---------Home------------sp--*/
+#sectionHeight {
+    text-align:center;
+    margin-top:-10px;
+    background:#ede7d2;
+
+}
+.sectCenter {
+
+}
+.gallery {
+  position:relative;
+  margin:15px;
+  max-width: 400px;
+  display:inline-block;
+}
+
+/*div.gallery:hover {
+  border: 1px solid #777;
+}*/
+
+.gallery img {
+  width: 100%;
+  height: 300px;
+  display:block;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(202, 35, 43, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(202, 35, 43, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background:rgba(202, 35, 43, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.gallery:hover .overlay1 {
+  width: 100%;
+}
+.gallery:hover .overlay2 {
+  height: 100%;
+}
+.gallery:hover .overlay3 {
+  width: 100%;
+  left:0;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 /*---------Vision----------sp--*/
 
@@ -442,39 +529,6 @@ fieldset {
     width:30%;
     padding:0;
     margin:0;
-}
-.image {
-  display: block;
-  width: 100%;
-  height: 400px;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background:rgba(202, 35, 43, 0.7);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
-}
-
-.slideBar:hover .overlay {
-  width: 100%;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
 }
 
 .about-text  {
@@ -1226,7 +1280,8 @@ ul.involved li.active {
 */
 
 .footer-area {
-    padding: 80px 0px;
+    padding: 5px 0px;
+    background:#fff;
 }
 
 .social-links ul {

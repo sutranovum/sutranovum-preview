@@ -9,7 +9,9 @@ Version      : 1.0
 
 /* Medium Layout: 1280px. */
 
-@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
 
 
 /* Tablet Layout: 768px. */
@@ -84,21 +86,6 @@ Version      : 1.0
     }
     #service {
     }
-    
-    .slideBar {
-        width:100%;
-        margin:0 auto;
-
-    }
-    .image {
-        margin-top:-50px;
-        height:350px;
-    }
-    .overlay {
-        position: absolute;
-        top:-50px;
-        height:350px;
-    }
 
     .about-text {
         width:100%;
@@ -145,6 +132,8 @@ Version      : 1.0
     .navbar-right li {
         margin:0;
         padding:0;
+        display:block;
+        text-align:left;
     }
     .mainmenu .navbar-right li a {
     }
@@ -170,11 +159,11 @@ Version      : 1.0
         background:rgba(0, 0, 0, .1);
         margin:0;
     }
-    .welcome-image-area,
+    .welcome-image-area-1,
     .welcome-video-area {
         padding-top: 120px;
     }
-    .welcome-image-area h2,
+    .welcome-image-area-1 h2,
     .single-slide-item h2,
     .welcome-video-area h2 {
         font-size: 35px;
