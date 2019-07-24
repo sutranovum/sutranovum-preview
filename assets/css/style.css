@@ -1,4 +1,4 @@
-/*
+/*/*/*/*
 * ----------------------------------------------------------------------------------------
 * 01.GLOBAL CSS STYLE
 * 02.PRELOADER & BOUNCE CCS STYLE
@@ -203,11 +203,18 @@ fieldset {
 .welcome-image-area-4 {
     position: relative;
     height: 100%;
-    background: url(../images/bg/service1.jpg);
+    background: url(../images/bg/vision.jpg);
     background-size: cover;
     z-index: 1;
 }
 .welcome-image-area-5 {
+    position: relative;
+    height: 100%;
+    background: url(../images/bg/service1.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+.welcome-image-area-6 {
     position: relative;
     height: 100%;
     background: url(../images/bg/monkey1.jpg);
@@ -301,12 +308,20 @@ fieldset {
     top:-20px;
 
 }
+
+.vision {
+
+}
+.vision-center {
+    text-align:center;
+}
 .mainmenu {
     margin-top:-15px;
 }
 .mainmenu .navbar-right  {
     margin-top:-3px;
     width:100%;
+    display:inline-block;
 }
 .navbar-right li {
     float:none;
@@ -501,7 +516,7 @@ fieldset {
 /*---------Vision----------sp--*/
 
 .vision2 .vision-header {
-    background:#8bb8bd;
+    background:#303748;
 }
 .vision2 .read-button:hover {
     background:#8bb8bd;
@@ -1322,3 +1337,4 @@ ul.involved li.active {
     font-size: 14px;
     color: #222222;
 }
+*/*/*/
