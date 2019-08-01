@@ -75,6 +75,7 @@ Version      : 1.0
         margin-bottom: 110px;
     }
     .mainmenu .navbar-right  {
+        width:100%;
         margin-top:-50px;
     }
     .navbar-right .coaching {
@@ -96,12 +97,16 @@ Version      : 1.0
         display:inline;
         width:100%;
     }
-    .visionMan {
-        text-align: center;
+    .vision-bar {
+        width:100;
+        margin-top:-40px;
     }
+  
+  
     .vision2 .ul-overflow {
         height:700px;
     }
+   
 
 }
 
@@ -128,12 +133,19 @@ Version      : 1.0
     }
     .navbar-right {
         margin-top:20px;
+        width:100%;
     }
     .navbar-right li {
         margin:0;
         padding:0;
         display:block;
         text-align:left;
+    }
+    .vision-bar {
+        text-align: right;
+    }
+    .navbar-nobg {
+        width:100%;
     }
     .mainmenu .navbar-right li a {
     }
@@ -148,6 +160,7 @@ Version      : 1.0
     }
     .navbar-collapse {
         margin:0;
+        
     }
     .menu-bg .navbar-collapse {
         padding:0;
@@ -273,6 +286,19 @@ Version      : 1.0
         width:100%;
         height:100%;
     }
+    .vision-rightbar {
+        margin-top:10px;
+        position: absolute;
+        top:0;
+        right:0;
+        
+    }
+    .vision-dropbar {
+        margin-top:40px;
+    }
+    .mainmenu .navbar-nobg {
+        width:100%;
+    }
 
 
 }
@@ -280,7 +306,9 @@ Version      : 1.0
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
 
 
 /*

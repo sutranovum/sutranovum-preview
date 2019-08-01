@@ -315,8 +315,11 @@ fieldset {
 .vision-center {
     text-align:center;
 }
+.vision-bar {
+    margin-top:-3px;
+}
 .mainmenu {
-    margin-top:-15px;
+    margin-top:-20px;
 }
 .mainmenu .navbar-right  {
     margin-top:-3px;
@@ -514,17 +517,16 @@ fieldset {
 }
 
 /*---------Vision----------sp--*/
-
+.vision {
+   
+}
+.vision1 {
+    position: relative;
+}
 .vision2 .vision-header {
     background:#303748;
 }
-.vision2 .read-button:hover {
-    background:#8bb8bd;
-}
-.vision2 .ul-overflow {
-    overflow:scroll;
-    height:450px;
-}
+
 .vision2 .ul-overflow li:hover {
     background:#ddd;
 }
@@ -563,7 +565,7 @@ fieldset {
     border-radius: 30px;
 }
 
-/*----------about.html-----sp---*/
+/*----------about.html----------------sp---*/
 .welcome-area-1 {
     height:10%;
 }
@@ -607,7 +609,7 @@ fieldset {
     text-align:left;
 
 }
-#serviceBackgroundColor {
+.serviceBackgroundColor {
     width:100%;
     background:#f5f5f5;
     position: relative;
@@ -783,19 +785,20 @@ fieldset {
 .single-service p {
     color: #232323;
 }*/
-#service {
+.service {
     overflow: hidden;
-    padding-top:120px;
 }
-#serviceBackgroundColor {
+.serviceBackgroundColor {
     width:100%;
-    padding:20px;
+    height:500px;
+    padding:20px 30px;
     background:#f5f5f5;
+    overflow:auto;
     position: relative;
     z-index: 9;
 }
-#serviceBackgroundColor p {
-    margin:20px;
+.serviceBackgroundColor p {
+    margin:0px;
 }
 
 .services-figure-block {
@@ -1251,11 +1254,14 @@ ul.involved li.active {
     margin:20px;
     z-index: 999;
 }
-.fulfillmentSection p{
-    margin:0 40px;
+.fulfillmentSection {
+    margin:0;
 }
 .fulfillment {
     margin-top:40px;
+}
+.bottomPara {
+    margin-top:-40px;
 }
 .bottomPara p {
     margin:0 20px;
