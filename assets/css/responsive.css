@@ -299,6 +299,10 @@ Version      : 1.0
     .mainmenu .navbar-nobg {
         width:100%;
     }
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+  }
 
 
 }
@@ -307,7 +311,20 @@ Version      : 1.0
 /* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    
+    .responsive {
+         width: 100%;
+        margin-left:20px;
+
+  }
+  div.gallery img {
+  width: 100%;
+  height: auto;
+
+  }
+  div.gallery {
+  opacity:1;
+} 
+
 }
 
 

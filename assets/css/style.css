@@ -537,6 +537,35 @@ fieldset {
 .img-right {
     float:right;
 }
+div.gallery {
+  border: 1px solid #ccc;
+  opacity:0.7;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity:1;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 220px;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
 /*
 * ----------------------------------------------------------------------------------------
 * 04.ABOUT CSS STYLE
