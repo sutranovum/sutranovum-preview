@@ -569,6 +569,26 @@ div.desc {
   float: left;
   width: 33.3%;
 }
+
+.coach-page p, 
+.coach-page h3,
+.coach-page ol li {
+    margin:20px 0;
+}
+#faqs a {
+    color:blue;
+}
+#faqs a:hover {
+    font-size:15.2px;
+    border-bottom:1px solid blue;
+
+}
+
+/*------------testimonials section------------sp---*/
+#testimonials .borderL {
+    margin:25px 0;
+}
+
 /*
 * ----------------------------------------------------------------------------------------
 * 04.ABOUT CSS STYLE
@@ -950,6 +970,7 @@ div.desc {
 }
 .borderL {
     border-left:3px solid #ddd;
+    margin:20px 0;
 }
 .coachingPage .sectionInfo {
     width:100%;
