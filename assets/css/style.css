@@ -221,6 +221,13 @@ fieldset {
     background-size: cover;
     z-index: 1;
 }
+.welcome-image-area-7 {
+    position: relative;
+    height: 100%;
+    background: #000;
+    background-size: cover;
+    z-index: 1;
+}
 .welcome-image-area-1:after,
 .welcome-image-area-2:after,
 .welcome-image-area-3:after,
@@ -624,6 +631,14 @@ div.desc {
 }
 
 /*----------about.html----------------sp---*/
+#about .bottomline a {
+    color:blue;
+
+}
+#about .bottomline a:hover {
+    border-bottom:1px solid blue;
+    font-size:15.2px;
+}
 .welcome-area-1 {
     height:10%;
 }
@@ -651,7 +666,10 @@ div.desc {
     border-bottom:1px solid #ddd;
     font-size:15px;
 }
-
+/*---------------self-love------------sp---*/
+#self-love img {
+    margin:20px 0;
+}
 
 /*-------our focus----sp---*/
 
@@ -1350,6 +1368,13 @@ ul.involved li.active {
 }
 .para-wrap {
     background:#f2a901;
+}
+
+/*------------gallery--------------------sp---*/
+
+.carousel-inner img {
+    width:100%;
+    max-height:600px;
 }
 
 

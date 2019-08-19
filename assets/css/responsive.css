@@ -64,6 +64,11 @@ Version      : 1.0
         float: none;
         display: inline-block;
     }
+    .navbar-gallery {
+        margin-top:-65px !important;
+    }
+
+
     .about-text p,
     .about-text ul {
         padding: 0;
@@ -324,7 +329,14 @@ Version      : 1.0
   div.gallery {
   opacity:1;
 } 
-
+/*.navbar-nobg-2 {
+    margin-top:-26px !important;
+   
+    }
+.navbar-nobg-2 .navbar-toggle-2 {
+    position:relative !important;
+    right:0px;
+    }*/
 }
 
 
