@@ -224,7 +224,7 @@ fieldset {
 .welcome-image-area-7 {
     position: relative;
     height: 100%;
-    background: #000;
+    background: #fff;
     background-size: cover;
     z-index: 1;
 }
@@ -440,6 +440,8 @@ fieldset {
     from {transform:rotate(0deg);}
     to{transform:rotate(55deg);}
 }
+
+
 /*---------Home------------sp--*/
 #sectionHeight {
     text-align:center;
@@ -523,6 +525,7 @@ fieldset {
   -ms-transform: translate(-50%, -50%);
 }
 
+
 /*---------Vision----------sp--*/
 .vision {
    
@@ -591,6 +594,7 @@ div.desc {
 
 }
 
+
 /*------------testimonials section------------sp---*/
 #testimonials .borderL {
     margin:25px 0;
@@ -630,6 +634,7 @@ div.desc {
     border-radius: 30px;
 }
 
+
 /*----------about.html----------------sp---*/
 #about .bottomline a {
     color:blue;
@@ -666,10 +671,14 @@ div.desc {
     border-bottom:1px solid #ddd;
     font-size:15px;
 }
+
+
 /*---------------self-love------------sp---*/
 #self-love img {
     margin:20px 0;
 }
+
+
 
 /*-------our focus----sp---*/
 
@@ -697,6 +706,8 @@ div.desc {
 * 05.SKILLS CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
+
+
 /*-----services.html-----sp--*/
 
 .backgroundSect-1 {
@@ -758,65 +769,6 @@ div.desc {
 #consultancy,
 #workshop {
     padding-top:120px;
-}
-
-
-
-/*
-* ----------------------------------------------------------------------------------------
-* 06.RESUME CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-.resume-design-area {}
-
-.single-resume h3 {
-    font-size: 18px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    color: #000;
-    text-transform: capitalize;
-}
-
-.single-resume h3:before {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    position: absolute;
-    border: 2px solid #000;
-    background-color: transparent;
-    left: -75px;
-    content: '';
-    top: 15px;
-    background: #000;
-}
-
-.resume-left h2 {
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.resume-right:before {
-    background-color: #000;
-    opacity: .5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    content: '';
-    height: calc(100% + 0px);
-    width: 1px;
-    position: absolute;
-    left: -61px;
-    top: 16px;
-}
-
-.resume-right p {
-    margin-bottom: 20px;
-}
-
-.resume-right h4 {
-    font-size: 12px;
-    line-height: 32px;
-    margin-top: 10;
 }
 
 
@@ -950,6 +902,8 @@ div.desc {
     text-align: center;
 }
 
+
+
 /*---------coaching page--------sp--*/
 .iconArrow {
     width:40px;
@@ -1035,7 +989,10 @@ div.desc {
     height:300px;
     margin:10px;
 }
-/*----trek-----sp---*/
+
+
+
+/*---------------trek----------------sp---*/
 
 #trek {
     padding-top:120px;
@@ -1370,13 +1327,54 @@ ul.involved li.active {
     background:#f2a901;
 }
 
+
 /*------------gallery--------------------sp---*/
 
-.carousel-inner img {
+/*.carousel-inner img {
     width:100%;
     max-height:600px;
+}*/
+
+#picImages img {
+    width:100%;
+    height:400px;
+}
+#picImages {
+    position:relative;
 }
 
+#picImages .right,
+#picImages .left {
+    
+    position: relative;
+    top:45%;
+    z-index: 10;
+    width:20px;
+    height:50px;
+    background:#ddd;
+    opacity:.2; 
+    margin-top:10px;   
+}
+
+#picImages .right {
+    position:absolute;
+    right:0;
+}
+
+#picImages .left {
+    position:absolute;
+    left:0;
+}
+#picImages  {
+
+}
+
+#picImages .right:hover,
+#picImages .left:hover {
+    cursor:pointer;
+    opacity:.5;
+
+}
 
 /*
 * ----------------------------------------------------------------------------------------

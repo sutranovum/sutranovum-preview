@@ -217,3 +217,39 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-opacity-off";
 }
+
+
+// sequence slide image
+
+var myImage = document.getElementById('mainPic');
+var imageArray = ['assets/images/city1.jpg', 'assets/images/city2.jpg', 'assets/images/city3.jpg', 'assets/images/city4.jpg', 'assets/images/city5.jpg'];
+var imageIndex = 0;
+
+function changeImage() {
+    myImage.setAttribute('src', imageArray[imageIndex]);
+    imageIndex++;
+    if (imageIndex >= imageArray.length) {
+        imageIndex = 0;
+    }
+};
+setInterval(changeImage, 3000);
+
+
+// click for slideshow of pictures
+
+var imageCount = 1;
+var total = 5;
+
+function slide() {
+    var images = document.getElementById('mainPic');
+     imageCount = imageCount + 1;
+    if (imageCount > total) {
+        imageCount = 1;
+    }
+    if (imageCount < 1) {
+        imageCount = 4;
+    }
+    images.src = './assets/images/city' + imageCount + '.jpg';
+}
+
+
