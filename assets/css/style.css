@@ -1343,36 +1343,47 @@ ul.involved li.active {
     position:relative;
 }
 
-#picImages .right,
-#picImages .left {
+#picImages #left_holder,
+#picImages #right_holder {
     
     position: relative;
     top:45%;
     z-index: 10;
-    width:20px;
-    height:50px;
+    width:30px;
+    height:70px;
     background:#ddd;
-    opacity:.2; 
-    margin-top:10px;   
+    opacity:.5; 
+    margin-top:10px; 
+
 }
 
-#picImages .right {
+#picImages #left_holder {
     position:absolute;
     right:0;
+    border-radius:5px 0 0 5px;
+
 }
 
-#picImages .left {
+#picImages #right_holder {
     position:absolute;
     left:0;
+    color:rgba(0, 0, 0, 1);
+    border-radius:0 5px 5px 0;
+
 }
-#picImages  {
+#picImages .right,
+#picImages .left {
+    font-size:25px;
+    margin:25px 5px;
+
 
 }
 
-#picImages .right:hover,
-#picImages .left:hover {
+
+#picImages #left_holder:hover,
+#picImages #right_holder:hover {
     cursor:pointer;
-    opacity:.5;
+    opacity:.2;
 
 }
 
