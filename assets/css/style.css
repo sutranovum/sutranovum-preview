@@ -1416,6 +1416,14 @@ div.desc {
   float: left;
   width: 33.3%;
 }
+.section-padding-gallery {
+    padding-top:60px;
+}
+#gallery {
+    margin-top:100px;
+}
+.gallery-p {
+}
 
 
 /*
