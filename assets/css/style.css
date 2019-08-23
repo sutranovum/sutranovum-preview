@@ -770,6 +770,90 @@ div.desc {
 }
 
 
+/*== ABOUT ==*/
+.my-profile {
+  position: relative;
+}
+.my-profile .my-pict {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/aging1.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:300px;
+  height: 100%;
+}
+
+.block-section {
+    margin-top:50px;
+}
+
+@media (max-width: 880px) {
+  .my-profile .my-pict {
+    position: relative;
+    height: 300px;
+  }
+}
+.my-profile .my-pict .overfly {
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.8s ease 0s;
+  -webkit-transition: all 0.8s ease 0s;
+  -moz-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  -ms-transition: all 0.8s ease 0s;
+  overflow: hidden;
+  height: 100%;
+}
+.my-profile .my-pict .overfly .text-botttom {
+  position: absolute;
+  width: 100%;
+  transition: all 0.8s ease 0s;
+  -webkit-transition: all 0.8s ease 0s;
+  -moz-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  -ms-transition: all 0.8s ease 0s;
+  bottom: 0;
+  right: 0;
+  padding: 40px;
+  text-align: right;
+}
+.my-profile .my-pict .overfly:hover {
+  /*        background: transparent;
+                .text-botttom{
+                  bottom: -100%;
+                }*/
+
+}
+.my-profile .my-desc,
+.my-profile .my-pict {
+  width: 50%;
+}
+@media (max-width: 880px) {
+  .my-profile .my-desc,
+  .my-profile .my-pict {
+    width: 100% !important;
+  }
+}
+.my-profile .my-desc {
+  float: right;
+}
+.my-profile .my-desc .inner-text {
+  max-width: 585px;
+  padding: 40px;
+}
+@media (max-width: 880px) {
+  .my-profile .my-desc .inner-text {
+    max-width: 100%;
+  }
+}
+
+
 /*
 * ----------------------------------------------------------------------------------------
 * 07.services.html  sp
