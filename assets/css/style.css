@@ -774,7 +774,8 @@ div.desc {
 .my-profile {
   position: relative;
 }
-.my-profile .my-pict {
+
+.my-profile .my-pict-1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -783,20 +784,59 @@ div.desc {
   left: 0;
   top: 0;
   width:300px;
-  height: 100%;
+  height: 450px;
+}
+.my-profile .my-pict-2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/aging2.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:300px;
+  height: 450px;
 }
 
+.my-profile .my-pict-3 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/animals1.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:300px;
+  height: 450px;
+}
+.my-profile .my-pict-4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/animals2.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:300px;
+  height: 450px;
+}
 .block-section {
     margin-top:50px;
 }
 
 @media (max-width: 880px) {
-  .my-profile .my-pict {
+  .my-profile .my-pict-1,
+  .my-profile .my-pict-2,
+  .my-profile .my-pict-3,
+  .my-profile .my-pict-4 {
     position: relative;
     height: 300px;
   }
 }
-.my-profile .my-pict .overfly {
+.my-profile .my-pict-1 .overfly,
+.my-profile .my-pict-2 .overfly,
+.my-profile .my-pict-3 .overfly,
+.my-profile .my-pict-4 .overfly {
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
   width: 100%;
@@ -810,7 +850,10 @@ div.desc {
   overflow: hidden;
   height: 100%;
 }
-.my-profile .my-pict .overfly .text-botttom {
+.my-profile .my-pict-1 .overfly .text-botttom,
+.my-profile .my-pict-2 .overfly .text-botttom,
+.my-profile .my-pict-3 .overfly .text-botttom,
+.my-profile .my-pict-4 .overfly .text-botttom   {
   position: absolute;
   width: 100%;
   transition: all 0.8s ease 0s;
@@ -823,20 +866,30 @@ div.desc {
   padding: 40px;
   text-align: right;
 }
-.my-profile .my-pict .overfly:hover {
-  /*        background: transparent;
+.my-profile .my-pict-1 .overfly:hover,
+.my-profile .my-pict-2 .overfly:hover,
+.my-profile .my-pict-3 .overfly:hover,
+.my-profile .my-pict-4 .overfly:hover {
+          background: transparent;
                 .text-botttom{
                   bottom: -100%;
-                }*/
+                }
 
 }
 .my-profile .my-desc,
-.my-profile .my-pict {
+.my-profile .my-pict-1,
+.my-profile .my-pict-2,
+.my-profile .my-pict-3,
+.my-profile .my-pict-4 {
   width: 50%;
-}
+/*  margin-top:70px;
+*/}
 @media (max-width: 880px) {
   .my-profile .my-desc,
-  .my-profile .my-pict {
+  .my-profile .my-pict-1,
+  .my-profile .my-pict-2,
+  .my-profile .my-pict-3,
+  .my-profile .my-pict-4 {
     width: 100% !important;
   }
 }
