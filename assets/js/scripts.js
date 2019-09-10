@@ -254,6 +254,7 @@ function slide() {
     images.src = './assets/images/city' + imageCount + '.jpg';
 }
 
+//product.hmtl clicked on links 
 document.getElementById('product--1').addEventListener('click', product1);
 document.getElementById('product--2').addEventListener('click', product2);
 document.getElementById('product--3').addEventListener('click', product3);
@@ -262,21 +263,21 @@ document.getElementById('product--4').addEventListener('click', product4);
 
 function product1() {
     document.getElementById('my-pict-1').style.marginTop='80px';
-    document.getElementById('my-desc-1').style.marginTop='150px';
+    document.getElementById('my-desc-1').style.marginTop='50px';
 }
 function product2() {
     document.getElementById('my-pict-2').style.marginTop='80px';
-    document.getElementById('my-desc-2').style.marginTop='150px';
+    document.getElementById('my-desc-2').style.marginTop='50px';
 
 }
 function product3() {
     document.getElementById('my-pict-3').style.marginTop='80px';
-    document.getElementById('my-desc-3').style.marginTop='150px';
+    document.getElementById('my-desc-3').style.marginTop='50px';
 
 }
 function product4() {
     document.getElementById('my-pict-4').style.marginTop='80px';
-    document.getElementById('my-desc-4').style.marginTop='150px';
+    document.getElementById('my-desc-4').style.marginTop='50px';
 
-}
+ }
 

@@ -774,12 +774,18 @@ div.desc {
 .my-profile {
   position: relative;
 }
-
+.section-padding-2 {
+  margin-top:-20px;
+}
+.product-wrapper {
+  position: relative;
+  top:20px;
+}
 .my-profile .my-pict-1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/aging1.jpg);
+  background-image: url(../images/product1.jpg);
   position: absolute;
   left: 0;
   top: 0;
@@ -790,7 +796,7 @@ div.desc {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/aging2.jpg);
+  background-image: url(../images/product2.jpg);
   position: absolute;
   left: 0;
   top: 0;
@@ -823,6 +829,10 @@ div.desc {
 .block-section {
     margin-top:50px;
 }
+.my-profile .my-desc .inner-text {
+  max-width: 585px;
+  padding: 40px;
+}
 
 @media (max-width: 880px) {
   .my-profile .my-pict-1,
@@ -849,6 +859,8 @@ div.desc {
   -ms-transition: all 0.8s ease 0s;
   overflow: hidden;
   height: 100%;
+  color:#ca232b;
+
 }
 .my-profile .my-pict-1 .overfly .text-botttom,
 .my-profile .my-pict-2 .overfly .text-botttom,
@@ -882,8 +894,7 @@ div.desc {
 .my-profile .my-pict-3,
 .my-profile .my-pict-4 {
   width: 50%;
-/*  margin-top:70px;
-*/}
+}
 @media (max-width: 880px) {
   .my-profile .my-desc,
   .my-profile .my-pict-1,
@@ -896,16 +907,18 @@ div.desc {
 .my-profile .my-desc {
   float: right;
 }
-.my-profile .my-desc .inner-text {
-  max-width: 585px;
-  padding: 40px;
-}
+
 @media (max-width: 880px) {
   .my-profile .my-desc .inner-text {
     max-width: 100%;
   }
 }
-
+@media (max-width: 882px) {
+  .my-desc-1 {
+    position: relative;
+    bottom:100px;
+  }
+}
 
 /*
 * ----------------------------------------------------------------------------------------

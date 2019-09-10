@@ -1,22 +1,16 @@
-/*
-* ----------------------------------------------------------------------------------------
-Author       : Creativepersonal
-Template Name: Matola - Material Personal resume Template
-Version      : 1.0
-* ----------------------------------------------------------------------------------------
-*/
-
 
 /* Medium Layout: 1280px. */
 
-@media only screen and (min-width: 992px) and (max-width: 1280px) {
-
+@media only screen and (min-width:880) and (max-width:991) {
+    .my-profile .my-desc .inner-text {
+      padding: 10px 10px 10px 20px;
+    }
 }
-
 
 /* Tablet Layout: 768px. */
 
-@media only screen and (min-width: 767px) and (max-width: 991px) {
+@media only screen and (min-width: 767px) and (max-width: 880px) {
+
     .single-project-done {
         text-align: center;
     }
@@ -111,10 +105,15 @@ Version      : 1.0
     .vision2 .ul-overflow {
         height:700px;
     }
+     
+    .my-desc {
+        margin-top:10px;
+    }
+    .my-profile .my-desc .inner-text {
+      padding: 20px 10px 10px 0px;
+    }
    
-
 }
-
 
 /* Mobile Layout: 320px. */
 
@@ -312,7 +311,28 @@ Version      : 1.0
         margin-top:-20px;
   }
  
+   .my-profile .my-desc .inner-text {
+    padding: 10px 10px 10px 0;
+  }
+  .my-profile .my-pict-1 .overfly,
+  .my-profile .my-pict-2 .overfly,
+  .my-profile .my-pict-3 .overfly,
+  .my-profile .my-pict-4 .overfly {
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.8s ease 0s;
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    overflow: hidden;
+    height: 100%;
+    color:#ca232b;
 
+  }
 
 }
 
