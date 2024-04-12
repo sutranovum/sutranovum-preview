@@ -1,3 +1,3 @@
 # sutranovum.github.io
 
-This is the static site for SutraNovum.com
+This is the old site for SutraNovum.com
